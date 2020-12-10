@@ -1,7 +1,5 @@
 def ejemplo():
-   
     agenda = []
-    
     opcion = 0
     #abrir el archivo para lectura, leer todos los datos y cerrarlo
     while opcion != 4:
@@ -11,7 +9,7 @@ def ejemplo():
         print("4-Salir")
         opcion = int(input("Ingrese su opción:"))
     
-        if opcion ==1:
+        if opcion == 1:
             contacto = {}
             contacto["nombre"] = input("Ingrese el nombre:")
             contacto["apellido"] = input("Ingrese el apellido:")
